@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.outdoorrevival.com/wp-content/uploads/2017/09/weather1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 14px;
+    background: rgb(226, 215, 206);
+    background: #041113b2;
+    color: rgb(232, 212, 222);
+}
+
+.input > input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 18px;
+    color: rgb(255 255 255);
+    background: #7c7c7c2b;
+    font-family: 'Raleway', sans-serif;
+}
+
+button.button {
+    border: none;
+    width: 29px;
+    padding: 6px;
+    border-radius: 20px;
+    border-color:rgb(169, 231, 209);
+    font-family: 'Times New Roman', Times,serif;
+    transition: (.5s);
+}
+
+button.button:focus{
+    outline:none;
+}
+
+button.button:hover{
+    border: 1px solid rgb(175, 167, 167) 
+}
+
+.displayWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times,serif;
+}
